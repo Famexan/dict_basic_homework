@@ -8,15 +8,13 @@ def cities_dict(cities:list):
     """
 
     city = {}
-    cities = set(cities)
-    cities = list(cities)
+    cities.sort()
 
     for i in  range(len(cities)):
-        city[i] = cities[i-1]
-
+        city[i] = cities[i]
 
     return city
 
-sity = ['andijon','samarqand','toshkent']
+sity = ['samarqand','toshkent','andijon']
 
 print(cities_dict(sity))
