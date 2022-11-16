@@ -15,6 +15,3 @@ def cities_dict(cities:list):
 
     return city
 
-sity = ['samarqand','toshkent','andijon']
-
-print(cities_dict(sity))
