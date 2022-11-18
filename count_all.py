@@ -7,4 +7,13 @@ def count_all(txt):
     Returns:
         dict: dictionary with letters and digits
     """
-    return
+    slov = {}
+
+    for i in range(len(txt)):
+        slov[i] = txt[i]
+
+    return slov
+
+st = "Assalom"
+print(count_all(st))
+
