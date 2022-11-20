@@ -7,4 +7,11 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    return
+    dic = {}
+
+    for i in range(len(key)):
+        #dic[key(i)] = value[i]
+        dic.update({ke[i] : val[i]})
+
+    return dic
+
